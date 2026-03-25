@@ -1,7 +1,9 @@
+import { Button } from '@/shared/ui/Button';
+
 function App() {
   return (
     <main>
-      <h1>App</h1>
+      <Button />
     </main>
   );
 }
