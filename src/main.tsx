@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router';
 
 import App from '@/app/App.tsx';
 import '@/app/styles/index.scss';
+import '@/shared/config/i18n/i18n';
 
 import { ThemeProvider } from './app/providers';
 
