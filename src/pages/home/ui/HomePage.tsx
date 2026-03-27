@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router';
 
+import EnglishFlag from '@/shared/assets/icons/English.svg?react';
 import { useTheme } from '@/shared/config';
 import { Button } from '@/shared/ui';
 
@@ -19,8 +20,8 @@ export const HomePage = () => {
       <h1 className={styles.title}>{t('Hello')}</h1>
       <Link to='/login'>Login</Link>
       <Button onClick={toggleTheme}>Theme</Button>
-      <Button disabled theme='secondary' onClick={changeLanguage}>
-        Change language
+      <Button theme='secondary' onClick={changeLanguage}>
+        <EnglishFlag />
       </Button>
     </>
   );
