@@ -1,0 +1,29 @@
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid transparent;
+  transition: border 300ms ease-in-out;
+
+  &:focus-within {
+    border: 1px solid var(--gray-300);
+  }
+}
+
+.input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.inputButton {
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
