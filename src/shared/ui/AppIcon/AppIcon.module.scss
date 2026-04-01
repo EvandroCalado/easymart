@@ -1,0 +1,13 @@
+.container {
+  width: fit-content;
+  background-color: var(--primary-color-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 100%;
+}
+
+.filled {
+  fill: var(--primary-color);
+}
