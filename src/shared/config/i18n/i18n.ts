@@ -4,7 +4,7 @@ import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
 
-export const supportedLngs = ['en', 'pt'];
+export const supportedLngs = ['en', 'pt'] as const;
 
 i18n
 

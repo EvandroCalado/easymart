@@ -1,3 +1,7 @@
+export {
+  languageIconList,
+  type SupportedLngsType,
+} from './i18n/LanguageIconList';
 export { AppRoutes, routePaths } from './router/routePaths';
 export {
   LOCAL_STORAGE_THEME_KEY,

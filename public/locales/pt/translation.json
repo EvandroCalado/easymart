@@ -1,3 +1,7 @@
 {
-  "Hello": "Olá"
+  "header": {
+    "cart": "Carrinho",
+    "searchBy": "Pesquisar por",
+    "login": "Entrar"
+  }
 }
