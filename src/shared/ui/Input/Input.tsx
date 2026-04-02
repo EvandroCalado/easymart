@@ -8,17 +8,17 @@ import styles from './input.module.scss';
 
 interface InputProps extends ComponentProps<'input'> {
   rounded?: boolean;
-  icon?: ReactNode;
+  Icon?: ReactNode;
 }
 
-export const Input = ({ rounded = false, icon, ...props }: InputProps) => {
+export const Input = ({ rounded = false, Icon, ...props }: InputProps) => {
   const [showPassword, setShowPassword] = useState<boolean>(false);
 
   const togglePassword = () => setShowPassword(prev => !prev);
 
   return (
     <div className={cn(styles['input-container'])}>
-      {icon}
+      {Icon}
       <input
         {...props}
         className={cn(styles.input, { [styles.rounded]: rounded })}
