@@ -3,5 +3,27 @@
     "cart": "Carrinho",
     "searchBy": "Pesquisar por",
     "login": "Entrar"
+  },
+  "footer": {
+    "about": "Sobre",
+    "aboutUs": "Sobre Nós",
+    "ourBranches": "Nossas Lojas",
+    "changeLog": "Registro de Alterações",
+    "quickLinks": "Links Rápidos",
+    "faqs": "FAQs",
+    "recipes": "Receitas",
+    "contactUs": "Fale Conosco",
+    "helpSupport": "Ajuda e Suporte",
+    "termsOfService": "Termos de Serviço",
+    "privacyPolicy": "Política de Privacidade",
+    "security": "Segurança",
+    "company": "Empresa",
+    "blog": "Blog",
+    "contact": "Contato",
+    "social": "Social",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "x": "X",
+    "copyright": "© {{year}} {{company}}. Todos os direitos reservados."
   }
 }
