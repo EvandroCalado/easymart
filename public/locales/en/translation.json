@@ -25,5 +25,8 @@
     "instagram": "Instagram",
     "x": "X",
     "copyright": "© {year} {company}. All rights reserved."
+  },
+  "loader": {
+    "loading": "Loading..."
   }
 }
