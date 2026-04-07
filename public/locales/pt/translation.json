@@ -28,5 +28,10 @@
   },
   "loader": {
     "loading": "Carregando..."
+  },
+  "pageError": {
+    "title": "Algo deu errado",
+    "description": "Estamos enfrentando dificuldades técnicas. Por favor, tente novamente mais tarde.",
+    "reload": "Tentar novamente"
   }
 }
