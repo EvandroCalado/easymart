@@ -1,12 +1,12 @@
 import { Suspense } from 'react';
 
-import { Loader } from '@/widgets/Loader';
+import { PageLoader } from '@/widgets/PageLoader';
 
 import { AppRouter } from './providers';
 
 function App() {
   return (
-    <Suspense fallback={<Loader />}>
+    <Suspense fallback={<PageLoader />}>
       <AppRouter />
     </Suspense>
   );
