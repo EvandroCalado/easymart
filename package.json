@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
+    "lint:ts": "tsc --noEmit",
     "lint:style": "stylelint \"**/*.scss\" --fix",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test": "vitest",
+    "test:run": "vitest run",
     "test:regression": "npx chromatic"
   },
   "dependencies": {
