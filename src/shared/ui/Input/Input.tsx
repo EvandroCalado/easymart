@@ -17,11 +17,13 @@ export const Input = ({ rounded = false, Icon, ...props }: InputProps) => {
   const togglePassword = () => setShowPassword(prev => !prev);
 
   return (
-    <div className={cn(styles['input-container'])}>
+    <div
+      className={cn(styles['input-container'], { [styles.rounded]: rounded })}
+    >
       {Icon}
       <input
         {...props}
-        className={cn(styles.input, { [styles.rounded]: rounded })}
+        className={styles.input}
         type={showPassword && props.type === 'password' ? 'text' : props.type}
       />
       {props.type === 'password' && (

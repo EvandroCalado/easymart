@@ -4,11 +4,15 @@
   gap: 10px;
   border-radius: 8px;
   padding: 10px;
-  border: 1px solid transparent;
+  border: 1px solid var(--gray-100);
   transition: border 300ms ease-in-out;
 
   &:focus-within {
     border: 1px solid var(--gray-300);
+  }
+
+  &:has(input:disabled) {
+    background-color: var(--gray-50);
   }
 }
 
@@ -16,6 +20,11 @@
   width: 100%;
   border: none;
   outline: none;
+  background-color: transparent;
+}
+
+.rounded {
+  border-radius: 50px;
 }
 
 .input-button {
