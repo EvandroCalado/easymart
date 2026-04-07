@@ -18,12 +18,19 @@ export const Button = ({
   size = 'sm',
   form = 'pill',
   theme = 'primary',
+  className,
   ...props
 }: ButtonProps) => {
   return (
     <button
       {...props}
-      className={cn(styles.button, styles[size], styles[form], styles[theme])}
+      className={cn(
+        styles.button,
+        styles[size],
+        styles[form],
+        styles[theme],
+        className,
+      )}
     />
   );
 };
