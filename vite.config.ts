@@ -1,8 +1,9 @@
 /// <reference types="vitest/config" />
+import path from 'path';
+
 import babel from '@rolldown/plugin-babel';
 import react, { reactCompilerPreset } from '@vitejs/plugin-react';
 // https://vite.dev/config/
-import path from 'path';
 import { defineConfig } from 'vite';
 import svgr from 'vite-plugin-svgr';
 
