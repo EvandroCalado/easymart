@@ -1,3 +1,4 @@
+export { AuthProviders, type AuthProviderType } from './auth/auth';
 export {
   languageIconList,
   type SupportedLngsType,
