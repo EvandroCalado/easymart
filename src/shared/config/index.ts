@@ -1,4 +1,10 @@
-export { AuthProviders, type AuthProviderType } from './auth/auth';
+export {
+  AuthMethods,
+  AuthProviders,
+  LOCAL_STORAGE_USER_KEY,
+  type AuthMethodType,
+  type AuthProviderType,
+} from './auth/auth';
 export {
   languageIconList,
   type SupportedLngsType,
